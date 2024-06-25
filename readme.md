@@ -29,4 +29,5 @@ Post-hoc explanations for the fully trained models in `ml-framework/outputs/mode
 Results of the xai experiments from the paper can be found unter `ml-framework/outputs/explanation/erp_mas`.
 
 [1] Tritscher, Julian, et al. "Occupational Fraud Detection through Agent-based Data Generation." 8th Workshop on MIning DAta for financial applicationS (MIDAS). (2023).
+
 [2] Tritscher, Julian, et al. "Open ERP System Data For Occupational Fraud Detection." arXiv preprint arXiv:2206.04460 (2022).
