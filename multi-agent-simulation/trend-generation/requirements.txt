@@ -1,0 +1,4 @@
+# Recommended Python Version: 3.9
+matplotlib==3.4.3
+pandas~=1.4.4
+numpy~=1.22.4

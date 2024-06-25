@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<company>
+    <ressourcelist>
+        <ressource id="AA-R01">
+            <name>Nuts</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>1.82</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V01</Vendor>
+            <unit>KG</unit>
+        </ressource>
+        <ressource id="AA-R02">
+            <name>Blueberries</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>4</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V01</Vendor>
+            <unit>KG</unit>
+        </ressource>
+        <ressource id="AA-R03">
+            <name>Strawberries</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>4.02</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V01</Vendor>
+            <unit>KG</unit>
+        </ressource>
+        <ressource id="AA-R04">
+            <name>Raisins</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>1.07</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V01</Vendor>
+            <unit>KG</unit>
+        </ressource>
+        <ressource id="AA-R05">
+            <name>Wheat</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>0.99</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V01</Vendor>
+            <unit>KG</unit>
+        </ressource>
+        <ressource id="AA-R06">
+            <name>Oats</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>0.92</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V01</Vendor>
+            <unit>KG</unit>
+        </ressource>
+        <ressource id="AA-P01">
+            <name>Box 1kg</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>0.28</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V02</Vendor>
+            <unit>ST</unit>
+        </ressource>
+        <ressource id="AA-P02">
+            <name>Bag 1kg</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>0.12</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V02</Vendor>
+            <unit>ST</unit>
+        </ressource>
+        <ressource id="AA-P03">
+            <name>Box 0.5kg</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>0.21</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V02</Vendor>
+            <unit>ST</unit>
+        </ressource>
+        <ressource id="AA-P04">
+            <name>Bag 0.5kg</name>
+            <pricecontrole>V</pricecontrole>
+            <mvp>0.09</mvp>
+            <deliverytime>1</deliverytime>
+            <Vendor>V02</Vendor>
+            <unit>ST</unit>
+        </ressource>
+    </ressourcelist>
+    <Vendornumber>2</Vendornumber>
+    <VendorAlist>
+        <VendorA>
+            <name>V01</name>
+            <currency>EUR</currency>
+            <country>DE0000000</country>
+            <paymenttime>15</paymenttime>
+        </VendorA>
+        <VendorA>
+            <name>V02</name>
+            <currency>EUR</currency>
+            <country>DE0000000</country>
+            <paymenttime>15</paymenttime>
+        </VendorA>
+    </VendorAlist>
+    <consumernumber>3</consumernumber>
+    <consumerlist>
+        <consumer>
+            <paymenttime>10</paymenttime>
+            <margindiff>7.5</margindiff><!-->depreciated<!-->
+        </consumer>
+        <consumer>
+            <paymenttime>10</paymenttime>
+            <margindiff>0</margindiff>
+        </consumer>
+        <consumer>
+            <paymenttime>10</paymenttime>
+            <margindiff>-7.5</margindiff>
+        </consumer>
+    </consumerlist>
+
+    <productlist>
+        <product id="AA-F01">
+            <name>Nuts 0.5kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F02">
+            <name>Blueberries 0.5kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F03">
+            <name>Strawberries 0.5kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F04">
+            <name>Raisins 0.5kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F05">
+            <name>Original 0.5kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F06">
+            <name>Mixed Fruits 0.5kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F11">
+            <name>Nuts 1kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F12">
+            <name>Blueberries 1kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F13">
+            <name>Strawberries 1kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F14">
+            <name>Raisins 1kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F15">
+            <name>Original 1kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+        <product id="AA-F16">
+            <name>Mixed Fruits 1kg</name>
+            <pricecontrole>S</pricecontrole>
+            <unit>ST</unit>
+        </product>
+    </productlist>
+    <stuecklisten>
+        <stueckliste>
+            <target>AA-F01</target>
+            <component>
+                <identifier>AA-R01</identifier>
+                <amount>0.1</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-P03</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P04</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F02</target>
+            <component>
+                <identifier>AA-R02</identifier>
+                <amount>0.1</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-P03</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P04</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F03</target>
+            <component>
+                <identifier>AA-R03</identifier>
+                <amount>0.1</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-P03</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P04</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F04</target>
+            <component>
+                <identifier>AA-R04</identifier>
+                <amount>0.1</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-P03</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P04</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F05</target>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.3</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-P03</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P04</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F06</target>
+            <component>
+                <identifier>AA-R01</identifier>
+                <amount>0.04</amount>
+            </component>
+            <component>
+                <identifier>AA-R02</identifier>
+                <amount>0.03</amount>
+            </component>
+            <component>
+                <identifier>AA-R03</identifier>
+                <amount>0.03</amount>
+            </component>
+            <component>
+                <identifier>AA-R04</identifier>
+                <amount>0.05</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.15</amount>
+            </component>
+            <component>
+                <identifier>AA-P03</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P04</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F11</target>
+            <component>
+                <identifier>AA-R01</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-P01</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P02</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F12</target>
+            <component>
+                <identifier>AA-R02</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-P01</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P02</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F13</target>
+            <component>
+                <identifier>AA-R03</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-P01</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P02</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F14</target>
+            <component>
+                <identifier>AA-R04</identifier>
+                <amount>0.2</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-P01</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P02</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F15</target>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.6</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-P01</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P02</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+        <stueckliste>
+            <target>AA-F16</target>
+            <component>
+                <identifier>AA-R01</identifier>
+                <amount>0.08</amount>
+            </component>
+            <component>
+                <identifier>AA-R02</identifier>
+                <amount>0.06</amount>
+            </component>
+            <component>
+                <identifier>AA-R03</identifier>
+                <amount>0.06</amount>
+            </component>
+            <component>
+                <identifier>AA-R04</identifier>
+                <amount>0.1</amount>
+            </component>
+            <component>
+                <identifier>AA-R05</identifier>
+                <amount>0.4</amount>
+            </component>
+            <component>
+                <identifier>AA-R06</identifier>
+                <amount>0.3</amount>
+            </component>
+            <component>
+                <identifier>AA-P01</identifier>
+                <amount>1</amount>
+            </component>
+            <component>
+                <identifier>AA-P02</identifier>
+                <amount>1</amount>
+            </component>
+            <capacity>24000</capacity>
+            <setuptime>0.33</setuptime>
+        </stueckliste>
+    </stuecklisten>
+    <Afa>
+        <type>linear</type>
+        <buildinglife>1200</buildinglife><!--weeks><!-->
+        <machinelife>480</machinelife>
+    </Afa>
+    <ShippingCost>
+        <costShipment>1000</costShipment>
+    </ShippingCost>
+
+    <warehousecapacity>
+        <types>4</types>
+        <capacity><!-->combined capacity -> sum <= limit </!-->
+            <item>AA-R01</item>
+            <item>AA-R02</item>
+            <item>AA-R03</item>
+            <item>AA-R04</item>
+            <item>AA-R05</item>
+            <item>AA-R06</item>
+            <limit>250000</limit>
+        </capacity>
+        <capacity> <!-->all products are always index 1<!-->
+            <item>AA-F01</item>
+            <item>AA-F02</item>
+            <item>AA-F03</item>
+            <item>AA-F04</item>
+            <item>AA-F05</item>
+            <item>AA-F06</item>
+            <item>AA-F11</item>
+            <item>AA-F12</item>
+            <item>AA-F13</item>
+            <item>AA-F14</item>
+            <item>AA-F15</item>
+            <item>AA-F16</item>
+            <limit>250000</limit>
+        </capacity>
+        <capacity>
+            <item>AA-P01</item>
+            <item>AA-P03</item>
+            <limit>500000</limit>
+        </capacity>
+        <capacity>
+            <item>AA-P02</item>
+            <item>AA-P04</item>
+            <limit>500000</limit>
+        </capacity>
+    </warehousecapacity>
+
+    <accountlist>
+        <account id="113300">
+            <name>bank account</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="792000">
+            <name>finnished goods</name>
+            <typeA>M</typeA>
+        </account>
+        <account id="300000">
+            <name>raw materials</name>
+            <typeA>M</typeA>
+        </account>
+        <account id="140000">
+            <name>customer domestic receivables</name>
+            <typeA>D</typeA>
+        </account>
+        <account id="1000">
+            <name>land</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="2000">
+            <name>buildings</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="2010">
+            <name>depreciation buildings</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="11010">
+            <name>depreciation machines</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="11000">
+            <name>machines and equipment</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="191100">
+            <name>GR/IR clearing</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="160000">
+            <name>accounts payable domestic</name>
+            <typeA>K</typeA>
+        </account>
+        <account id="113101">
+            <name>loans</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="70000">
+            <name>stock</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="800000">
+            <name>revenues</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="400000">
+            <name>consumption raw materials</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="500000">
+            <name>labor cost- direct</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="510000">
+            <name>factory overhead expenses</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="211120">
+            <name>depreciation expense building</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="211130">
+            <name>depreciation expense machines</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="478100">
+            <name>warehouse cost</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="893010">
+            <name>total finished goods sold</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="895000">
+            <name>total finished goods produced</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="232500">
+            <name>valuation loss material</name>
+            <typeA>empty</typeA>
+        </account>
+        <account id="282500">
+            <name>valuation gain material</name>
+            <typeA>empty</typeA>
+        </account>
+        <account id="520000">
+            <name>sga expenses</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="478000">
+            <name>lean manufactoring expense</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="476900">
+            <name>interest</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="479000">
+            <name>Shrinkage</name>
+            <typeA>S</typeA>
+        </account>
+        <account id="472000">
+            <name>shipping cost</name>
+            <typeA>S</typeA>
+        </account>
+    </accountlist>
+    <shippingcost>1000</shippingcost>
+
+    <baselabor>20000</baselabor>
+    <baseoverhead>15000</baseoverhead>
+    <basesga>40000</basesga>
+
+    <productDataType>func</productDataType> <!-->data for data and func for functional <!-->
+    <storagesecurity>6000</storagesecurity>
+    <productionStrategy>ss</productionStrategy> <!-->sS or d<!-->
+    <maxInv>24000</maxInv>
+    <forecastingmethod>mvp
+    </forecastingmethod><!-->mvp for mvp , winters for winters only for 'data' type prductDataType <!-->
+    <fraudlikelihood>
+        <fraud id="AllInAll">0.1</fraud>
+        <fraud id="InvoiceKickback1">0.2</fraud>
+        <fraud id="InvoiceKickback2">0.02</fraud>
+        <fraud id="Theft1">0.2</fraud>
+        <fraud id="cj">0.1</fraud>
+    </fraudlikelihood>
+    <fraudvalues>
+        <fraud id="AllInAll">0.1</fraud>
+        <fraud id="InvoiceKickback1">0.75</fraud> <!--> leads to 1+0.5<!-->
+        <fraud id="InvoiceKickback2">0.75</fraud> <!-->percentage of price<!-->
+        <fraud id="Theft1">0.75</fraud>
+        <fraud id="cj">0.75</fraud>
+    </fraudvalues>
+    <shrinkage>
+        <sh id="likelihood">0</sh> <!-->only happens sometimes otherwise its completely in graphs<!-->
+        <sh id="Percentage">0.01</sh> <!-->amoutn <!-->
+    </shrinkage>
+    <markup>1.5</markup>
+    <markupCon>1.55</markupCon>
+
+    <marketfunc>
+        <type>nc</type> <!-->c=constant, nc= not constant -> elasticity<!-->
+        <market id="m1">
+            <copySubs boolean="true" favSubs="3">12</copySubs>
+            <tfactor>4</tfactor>
+            <capacitymapping>fix</capacitymapping>
+            <marketcap>18000</marketcap> <!-->monetary market cap !<!-->
+            <PCL>2</PCL>
+            <PCH>7</PCH>
+            <sets boolean="true">3</sets>
+            <elast pricechangeon="AA-F01" volumechangeon="AA-F01">-1</elast>
+            <elast pricechangeon="AA-F02" volumechangeon="AA-F02">-1</elast>
+            <elast pricechangeon="AA-F03" volumechangeon="AA-F03">-1</elast>
+            <elast pricechangeon="AA-F04" volumechangeon="AA-F04">-1</elast>
+            <elast pricechangeon="AA-F05" volumechangeon="AA-F05">-1</elast>
+            <elast pricechangeon="AA-F06" volumechangeon="AA-F06">-1</elast>
+            <elast pricechangeon="AA-F11" volumechangeon="AA-F11">-1</elast>
+            <elast pricechangeon="AA-F12" volumechangeon="AA-F12">-0.69</elast>
+            <elast pricechangeon="AA-F13" volumechangeon="AA-F13">-1</elast>
+            <elast pricechangeon="AA-F14" volumechangeon="AA-F14">-1</elast>
+            <elast pricechangeon="AA-F15" volumechangeon="AA-F15">-0.89</elast>
+            <elast pricechangeon="AA-F16" volumechangeon="AA-F16">-0.8</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F01">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F02">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F03">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F04">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F05">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F06">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F11">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F12">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F13">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F14">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F15">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F16">0.5</elast>
+            <fav on="AA-F01">0</fav>
+            <fav on="AA-F02">0</fav>
+            <fav on="AA-F03">0</fav>
+            <fav on="AA-F04">0</fav>
+            <fav on="AA-F05">0</fav>
+            <fav on="AA-F06">0</fav>
+            <fav on="AA-F11">0</fav>
+            <fav on="AA-F12">0.25</fav>
+            <fav on="AA-F13">0</fav>
+            <fav on="AA-F14">0</fav>
+            <fav on="AA-F15">0.25</fav>
+            <fav on="AA-F16">0.25</fav>
+            <cs>
+                <alpha>-0.7</alpha>
+                <beta on="AA-F01">-20</beta>
+                <beta on="AA-F02">-20</beta>
+                <beta on="AA-F03">-20</beta>
+                <beta on="AA-F04">-20</beta>
+                <beta on="AA-F05">-20</beta>
+                <beta on="AA-F06">-20</beta>
+                <beta on="AA-F11">-20</beta>
+                <beta on="AA-F12">2.29</beta>
+                <beta on="AA-F13">-20</beta>
+                <beta on="AA-F14">-20</beta>
+                <beta on="AA-F15">1.75</beta>
+                <beta on="AA-F16">2.36</beta>
+                <Cstddef>0.05</Cstddef>
+                <Cstddef2>0.1</Cstddef2> <!-->sigma of fluctuation of beta in market<!-->
+                <SubReduction>1</SubReduction>
+            </cs>
+        </market>
+        <market id="m2">
+            <copySubs boolean="true" favSubs="20">59</copySubs>
+            <tfactor>4</tfactor> <!-->used only in copySubs<!-->
+            <capacitymapping>fix</capacitymapping> <!-->fix and variable<!-->
+            <marketcap>44000</marketcap> <!-->monetary market cap !<!-->
+            <PCL>1</PCL>
+            <PCH>7</PCH>
+            <sets boolean="true">4</sets>
+            <elast pricechangeon="AA-F01" volumechangeon="AA-F01">-1</elast>
+            <elast pricechangeon="AA-F02" volumechangeon="AA-F02">-1</elast>
+            <elast pricechangeon="AA-F03" volumechangeon="AA-F03">-1</elast>
+            <elast pricechangeon="AA-F04" volumechangeon="AA-F04">-1</elast>
+            <elast pricechangeon="AA-F05" volumechangeon="AA-F05">-1</elast>
+            <elast pricechangeon="AA-F06" volumechangeon="AA-F06">-1</elast>
+            <elast pricechangeon="AA-F11" volumechangeon="AA-F11">-1</elast>
+            <elast pricechangeon="AA-F12" volumechangeon="AA-F12">-1.4</elast>
+            <elast pricechangeon="AA-F13" volumechangeon="AA-F13">-1</elast>
+            <elast pricechangeon="AA-F14" volumechangeon="AA-F14">-1</elast>
+            <elast pricechangeon="AA-F15" volumechangeon="AA-F15">-1.9</elast>
+            <elast pricechangeon="AA-F16" volumechangeon="AA-F16">-1.7</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F01">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F02">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F03">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F04">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F05">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F06">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F11">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F12">0.7</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F13">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F14">0.5</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F15">1.2</elast>
+            <elast pricechangeon="s1" volumechangeon="AA-F16">1.2</elast>
+            <fav on="AA-F01">0</fav>
+            <fav on="AA-F02">0</fav>
+            <fav on="AA-F03">0</fav>
+            <fav on="AA-F04">0</fav>
+            <fav on="AA-F05">0</fav>
+            <fav on="AA-F06">0</fav>
+            <fav on="AA-F11">0</fav>
+            <fav on="AA-F12">0.25</fav>
+            <fav on="AA-F13">0</fav>
+            <fav on="AA-F14">0</fav>
+            <fav on="AA-F15">0.25</fav>
+            <fav on="AA-F16">0.25</fav>
+            <cs>
+                <alpha>-1</alpha>
+                <beta on="AA-F01">-20</beta>
+                <beta on="AA-F02">-20</beta>
+                <beta on="AA-F03">-20</beta>
+                <beta on="AA-F04">-20</beta>
+                <beta on="AA-F05">-20</beta>
+                <beta on="AA-F06">-20</beta>
+                <beta on="AA-F11">-20</beta>
+                <beta on="AA-F12">2.29</beta>
+                <beta on="AA-F13">-20</beta>
+                <beta on="AA-F14">-20</beta>
+                <beta on="AA-F15">1.75</beta>
+                <beta on="AA-F16">2.36</beta>
+                <Cstddef>0.05</Cstddef><!-->sigma of market<!-->
+                <Cstddef2>0.1</Cstddef2> <!-->sigma of fluctuation of beta in market<!-->
+                <SubReduction>1
+                </SubReduction> <!-->general disadvantage of a substitute regarding beta factor, positive values reduce beta , negative values increase beta<!-->
+            </cs>
+        </market>
+
+
+    </marketfunc>
+    <initdays>720</initdays> <!-->days before company 'starts' , not less than 10<!-->
+    <killday>980</killday> <!-->day of simulation end<!-->
+
+    <paymenttimeAll>14</paymenttimeAll>
+
+    <initstocks>20000000</initstocks>
+    <initland>500000</initland>
+    <initbuildings>1500000</initbuildings>
+    <initmachines>24000000</initmachines>
+    <initloans>8000000</initloans>
+    <dataPriceIncrease>0
+    </dataPriceIncrease> <!-->the double amount with whitch price decision in data marketfunction is made e.g. buy if p <= p_m*(1+DPI)<!-->
+    <minlots>0</minlots>
+    <maxlots>24000</maxlots>
+    <maxCash>1</maxCash> <!-->percentage of cash reserve used for buying resources<!-->
+    <cashReserve>100000
+    </cashReserve> <!-->absolute monetary amount left out of planning as secure reserve for payment of additional cost / debt<!-->
+    <printbySM>true
+    </printbySM><!-->if erp data sales is printed by submarket or total market (only for func, nc type markets)<!-->
+
+
+    <seeds>
+        <seed id="Markets">255</seed>
+        <seed id="MarketWrapper">785</seed>
+        <seed id="DL">965</seed>
+        <seed id="MK">765</seed>
+        <seed id="SC">905</seed>
+        <seed id="Mainbook">456</seed>
+    </seeds>
+
+</company>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

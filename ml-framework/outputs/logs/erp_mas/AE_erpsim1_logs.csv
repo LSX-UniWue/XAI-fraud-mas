@@ -1,0 +1,2 @@
+batch_size,cpus,device,epochs,learning_rate,n_bottleneck,n_layers,shuffle,verbose,n_inputs,seed,fraud_ranks_test,rank_mean_test,rank_std_test,max_fraud_test,min_detect_test,auc_pr_test,auc_roc_test
+2048.0,8.0,cuda,50.0,0.01,32.0,2.0,1.0,1.0,251.0,0.0,"[1, 2, 7, 8, 12, 13, 16, 17, 19, 21, 22, 23, 43, 44, 46, 47, 48, 49, 63, 64, 68, 69, 73, 75, 219, 221, 233, 249, 264, 265, 315, 316, 451, 456, 485, 515, 648, 649, 684, 698, 739, 752, 761, 762, 826, 855, 871, 873, 966, 1395]",326.36,348.22853185803143,-1.6514494,1395.0,0.2516898840586274,0.9918212263123503
